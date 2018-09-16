@@ -25,9 +25,10 @@
 
 	<body id="top">
     <header id="header">
-      <a href="{{ site.url }}" class="/images/avatar.jpg"><img class="editable" src="/images/avatar.jpg" alt="{{ site.author.name }}"></a>
-	    <h1 class="editable"><strong>블록체인 개발자를 목표로 공부하고 있습니다.</strong>
-      </h1>
+      <a href="{{ site.url }}" class="image avatar"><img class="editable" src="/images/avatar.jpg" alt="{{ site.author.name }}"></a>
+      <h1 class="editable"><strong>I am <a href="/">Strata Reloaded</a></strong>, a super simple<br>
+      responsive site template freebie<br>
+      adapted by <a href="http://comfusionllc.com">Comfusion LLC</a>.</h1>
     </header>
 
     {{ content }}
@@ -70,7 +71,6 @@
 				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 			})(window,document,"script","//www.google-analytics.com/analytics.js","ga");
-
 				ga("create", "{{ site.google_analytics_key }}", "auto");
 				ga("send", "pageview");
 			</script>
